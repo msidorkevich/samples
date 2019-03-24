@@ -1,4 +1,4 @@
-package sidomik.samples;
+package sidomik.samples.firstminn;
 
 import org.junit.Before;
 import org.junit.Test;

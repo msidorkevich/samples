@@ -1,4 +1,4 @@
-package sidomik.samples;
+package sidomik.samples.firstminn;
 
 import javax.annotation.Nullable;
 import java.util.Comparator;

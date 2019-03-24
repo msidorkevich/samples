@@ -1,4 +1,4 @@
-package sidomik.samples;
+package sidomik.samples.firstminn;
 
 import java.util.Comparator;
 import java.util.Iterator;
