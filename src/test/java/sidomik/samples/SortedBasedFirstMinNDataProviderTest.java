@@ -1,4 +1,4 @@
-package sidomik.bigdata;
+package sidomik.samples;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -11,13 +11,14 @@ import java.util.stream.Stream;
 import static java.util.stream.Collectors.toList;
 import static org.junit.Assert.*;
 
-public class HeapBasedFirstMinNDataProviderTest {
+public class SortedBasedFirstMinNDataProviderTest {
 
-    private HeapBasedFirstMinNDataProvider<Integer> firstMinNDataProvider;
+    private SortedBasedFirstMinNDataProvider<Integer> firstMinNDataProvider;
 
     @Before
     public void prepare() {
-        firstMinNDataProvider = new HeapBasedFirstMinNDataProvider<>(Comparator.<Integer>naturalOrder());
+        OrderedDataProvider<Integer> orderedDataProvider = new SortedBasedDataProvider<>(Comparator.<Integer>naturalOrder());
+        firstMinNDataProvider = new SortedBasedFirstMinNDataProvider<>(orderedDataProvider);
     }
 
     @Test

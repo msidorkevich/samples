@@ -1,4 +1,4 @@
-package sidomik.bigdata;
+package sidomik.samples;
 
 import java.util.List;
 import java.util.stream.Stream;

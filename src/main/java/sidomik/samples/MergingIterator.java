@@ -1,4 +1,4 @@
-package sidomik.bigdata;
+package sidomik.samples;
 
 import javax.annotation.Nullable;
 import java.util.Comparator;

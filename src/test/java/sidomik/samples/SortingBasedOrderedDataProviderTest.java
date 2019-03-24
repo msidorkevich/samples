@@ -1,4 +1,4 @@
-package sidomik.bigdata;
+package sidomik.samples;
 
 import org.junit.Before;
 import org.junit.Test;

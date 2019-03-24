@@ -1,4 +1,4 @@
-package sidomik.bigdata;
+package sidomik.samples;
 
 import java.util.Comparator;
 import java.util.Iterator;
